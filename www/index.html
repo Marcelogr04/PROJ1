@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div id="login">
+            <h2>Login</h2>
+            <h4>Password:</h4>
+            <input type="text" name="user" placeholder="user name">
+            <h4>Name:</h4>
+            <input type="password" name="pass" placeholder="user password">
+            <button onclick="check_login();return false;">enviar</button>
+        </div>
+        <div id="register">
+            <h2>Registre</h2>
+            <h4>Name:</h4>
+            <input type="text" name="user" placeholder="user name">
+            <h4>Password:</h4>
+            <input type="password" name="pass" placeholder="user password">
+            <h4>Repeat password:</h4>
+            <input type="password" name="pass" placeholder="repeat user password">
+            <button onclick="check_register();return false;">enviar</button>
+        </div>
+    </div>
+</body>
+</html>
